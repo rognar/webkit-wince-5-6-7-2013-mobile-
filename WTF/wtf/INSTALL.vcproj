@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="INSTALL"
+	ProjectGUID="{07E99893-4633-469A-9DA3-E53E6684C0E4}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="STANDARDSDK_500 (ARMV4I)"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|STANDARDSDK_500 (ARMV4I)"
+			IntermediateDirectory="INSTALL.dir\Debug"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WTF;C:\work\1453\Source\WTF\wtf;C:\work\1453\Source\WTF\wtf\dtoa;C:\work\1453\Source\WTF\wtf\threads;C:\work\1453\Source\WTF\wtf\unicode;C:\work\1453\Source\ThirdParty;C:\work\1453;"
+				AssemblerListingLocation="Debug/"
+				DisableSpecificWarnings="4018;4065;4068;4099;4100;4127;4138;4180;4189;4201;4244;4251;4275;4288;4291;4305;4344;4355;4389;4396;4503;4505;4510;4512;4610;4706;4800;4951;4952;4996"
+				ExceptionHandling="0"
+				WarnAsError="true"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WTF;C:\work\1453\Source\WTF\wtf;C:\work\1453\Source\WTF\wtf\dtoa;C:\work\1453\Source\WTF\wtf\threads;C:\work\1453\Source\WTF\wtf\unicode;C:\work\1453\Source\ThirdParty;C:\work\1453;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WTF;C:\work\1453\Source\WTF\wtf;C:\work\1453\Source\WTF\wtf\dtoa;C:\work\1453\Source\WTF\wtf\threads;C:\work\1453\Source\WTF\wtf\unicode;C:\work\1453\Source\ThirdParty;C:\work\1453;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+CommandLine="&quot;C:\Program Files (x86)\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(ConfigurationName) -P cmake_install.cmake&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+		</Configuration>
+		<Configuration
+			Name="Release|STANDARDSDK_500 (ARMV4I)"
+			IntermediateDirectory="INSTALL.dir\Release"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WTF;C:\work\1453\Source\WTF\wtf;C:\work\1453\Source\WTF\wtf\dtoa;C:\work\1453\Source\WTF\wtf\threads;C:\work\1453\Source\WTF\wtf\unicode;C:\work\1453\Source\ThirdParty;C:\work\1453;"
+				AssemblerListingLocation="Release/"
+				DisableSpecificWarnings="4018;4065;4068;4099;4100;4127;4138;4180;4189;4201;4244;4251;4275;4288;4291;4305;4344;4355;4389;4396;4503;4505;4510;4512;4610;4706;4800;4951;4952;4996"
+				ExceptionHandling="0"
+				WarnAsError="true"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WTF;C:\work\1453\Source\WTF\wtf;C:\work\1453\Source\WTF\wtf\dtoa;C:\work\1453\Source\WTF\wtf\threads;C:\work\1453\Source\WTF\wtf\unicode;C:\work\1453\Source\ThirdParty;C:\work\1453;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WTF;C:\work\1453\Source\WTF\wtf;C:\work\1453\Source\WTF\wtf\dtoa;C:\work\1453\Source\WTF\wtf\threads;C:\work\1453\Source\WTF\wtf\unicode;C:\work\1453\Source\ThirdParty;C:\work\1453;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+CommandLine="&quot;C:\Program Files (x86)\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(ConfigurationName) -P cmake_install.cmake&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|STANDARDSDK_500 (ARMV4I)"
+			IntermediateDirectory="INSTALL.dir\MinSizeRel"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WTF;C:\work\1453\Source\WTF\wtf;C:\work\1453\Source\WTF\wtf\dtoa;C:\work\1453\Source\WTF\wtf\threads;C:\work\1453\Source\WTF\wtf\unicode;C:\work\1453\Source\ThirdParty;C:\work\1453;"
+				AssemblerListingLocation="MinSizeRel/"
+				DisableSpecificWarnings="4018;4065;4068;4099;4100;4127;4138;4180;4189;4201;4244;4251;4275;4288;4291;4305;4344;4355;4389;4396;4503;4505;4510;4512;4610;4706;4800;4951;4952;4996"
+				ExceptionHandling="0"
+				WarnAsError="true"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WTF;C:\work\1453\Source\WTF\wtf;C:\work\1453\Source\WTF\wtf\dtoa;C:\work\1453\Source\WTF\wtf\threads;C:\work\1453\Source\WTF\wtf\unicode;C:\work\1453\Source\ThirdParty;C:\work\1453;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WTF;C:\work\1453\Source\WTF\wtf;C:\work\1453\Source\WTF\wtf\dtoa;C:\work\1453\Source\WTF\wtf\threads;C:\work\1453\Source\WTF\wtf\unicode;C:\work\1453\Source\ThirdParty;C:\work\1453;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+CommandLine="&quot;C:\Program Files (x86)\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(ConfigurationName) -P cmake_install.cmake&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|STANDARDSDK_500 (ARMV4I)"
+			IntermediateDirectory="INSTALL.dir\RelWithDebInfo"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WTF;C:\work\1453\Source\WTF\wtf;C:\work\1453\Source\WTF\wtf\dtoa;C:\work\1453\Source\WTF\wtf\threads;C:\work\1453\Source\WTF\wtf\unicode;C:\work\1453\Source\ThirdParty;C:\work\1453;"
+				AssemblerListingLocation="RelWithDebInfo/"
+				DisableSpecificWarnings="4018;4065;4068;4099;4100;4127;4138;4180;4189;4201;4244;4251;4275;4288;4291;4305;4344;4355;4389;4396;4503;4505;4510;4512;4610;4706;4800;4951;4952;4996"
+				ExceptionHandling="0"
+				WarnAsError="true"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WTF;C:\work\1453\Source\WTF\wtf;C:\work\1453\Source\WTF\wtf\dtoa;C:\work\1453\Source\WTF\wtf\threads;C:\work\1453\Source\WTF\wtf\unicode;C:\work\1453\Source\ThirdParty;C:\work\1453;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WTF;C:\work\1453\Source\WTF\wtf;C:\work\1453\Source\WTF\wtf\dtoa;C:\work\1453\Source\WTF\wtf\threads;C:\work\1453\Source\WTF\wtf\unicode;C:\work\1453\Source\ThirdParty;C:\work\1453;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+CommandLine="&quot;C:\Program Files (x86)\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(ConfigurationName) -P cmake_install.cmake&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="CMake Rules"
+			Filter="">
+			<File
+				RelativePath="C:\work\1453\Source\WTF\wtf\CMakeFiles\INSTALL_force.rule">
+				<FileConfiguration
+					Name="Debug|STANDARDSDK_500 (ARMV4I)">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=" "
+					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="C:\work\1453\Source\WTF\wtf\CMakeFiles\INSTALL_force.rule"
+					Outputs="C:\work\1453\Source\WTF\wtf\CMakeFiles\INSTALL_force"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|STANDARDSDK_500 (ARMV4I)">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=" "
+					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="C:\work\1453\Source\WTF\wtf\CMakeFiles\INSTALL_force.rule"
+					Outputs="C:\work\1453\Source\WTF\wtf\CMakeFiles\INSTALL_force"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|STANDARDSDK_500 (ARMV4I)">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=" "
+					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="C:\work\1453\Source\WTF\wtf\CMakeFiles\INSTALL_force.rule"
+					Outputs="C:\work\1453\Source\WTF\wtf\CMakeFiles\INSTALL_force"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|STANDARDSDK_500 (ARMV4I)">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=" "
+					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="C:\work\1453\Source\WTF\wtf\CMakeFiles\INSTALL_force.rule"
+					Outputs="C:\work\1453\Source\WTF\wtf\CMakeFiles\INSTALL_force"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

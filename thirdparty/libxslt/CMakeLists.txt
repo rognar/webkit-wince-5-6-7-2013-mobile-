@@ -1,0 +1,53 @@
+SET(LIBXSLT_HEADERS
+    include/libxslt/attributes.h
+    include/libxslt/documents.h
+    include/libxslt/extensions.h
+    include/libxslt/extra.h
+    include/libxslt/functions.h
+    include/libxslt/imports.h
+    include/libxslt/keys.h
+    include/libxslt/libxslt.h
+    include/libxslt/namespaces.h
+    include/libxslt/numbersInternals.h
+    include/libxslt/pattern.h
+    include/libxslt/preproc.h
+    include/libxslt/security.h
+    include/libxslt/templates.h
+    include/libxslt/transform.h
+    include/libxslt/trio.h
+    include/libxslt/triodef.h
+    include/libxslt/variables.h
+    include/libxslt/win32config.h
+    include/libxslt/xslt.h
+    include/libxslt/xsltconfig.h
+    include/libxslt/xsltexports.h
+    include/libxslt/xsltInternals.h
+    include/libxslt/xsltlocale.h
+    include/libxslt/xsltutils.h
+    include/libxslt/xsltwin32config.h
+)
+
+SET(LIBXSLT_SOURCES
+    attributes.c
+    attrvt.c
+    documents.c
+    extensions.c
+    extra.c
+    functions.c
+    imports.c
+    keys.c
+    namespaces.c
+    numbers.c
+    pattern.c
+    preproc.c
+    security.c
+    templates.c
+    transform.c
+    variables.c
+    xslt.c
+    xsltlocale.c
+    xsltutils.c
+)
+
+INCLUDE_DIRECTORIES(include include/libxslt ../libxml2/include)
+ADD_LIBRARY(libxslt STATIC ${LIBXSLT_HEADERS} ${LIBXSLT_SOURCES})

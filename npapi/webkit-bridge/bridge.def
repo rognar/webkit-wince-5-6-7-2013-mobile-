@@ -1,0 +1,8 @@
+LIBRARY   bridge
+
+EXPORTS
+	NP_GetEntryPoints     @1
+	NP_Initialize         @2
+	NP_Shutdown           @3
+	BridgeCB_set_callback @4
+	BridgeCB_allocate     @5

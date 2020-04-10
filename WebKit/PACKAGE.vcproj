@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="PACKAGE"
+	ProjectGUID="{5B35A6E3-C688-4FA6-9B95-FCA3CD322BE8}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="STANDARDSDK_500 (ARMV4I)"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|STANDARDSDK_500 (ARMV4I)"
+			IntermediateDirectory="PACKAGE.dir\Debug"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WebKit;C:\work\1453\Source\WebCore;C:\work\1453\Source\WebCore\Modules\networkinfo;C:\work\1453\Source\WebCore\Modules\webdatabase;C:\work\1453\Source\WebCore\accessibility;C:\work\1453\Source\WebCore\bindings\generic;C:\work\1453\Source\WebCore\bindings\js;C:\work\1453\Source\WebCore\bindings;C:\work\1453\Source\WebCore\bridge;C:\work\1453\Source\WebCore\bridge\c;C:\work\1453\Source\WebCore\bridge\jsc;C:\work\1453\Source\WebCore\css;C:\work\1453\Source\WebCore\dom;C:\work\1453\Source\WebCore\dom\default;C:\work\1453\Source\WebCore\editing;C:\work\1453\Source\WebCore\history;C:\work\1453\Source\WebCore\html;C:\work\1453\Source\WebCore\html\shadow;C:\work\1453\Source\WebCore\inspector;C:\work\1453\Source\WebCore\loader;C:\work\1453\Source\WebCore\loader\appcache;C:\work\1453\Source\WebCore\loader\icon;C:\work\1453\Source\WebCore\loader\cache;C:\work\1453\Source\WebCore\page;C:\work\1453\Source\WebCore\page\animation;C:\work\1453\Source\WebCore\platform;C:\work\1453\Source\WebCore\platform\animation;C:\work\1453\Source\WebCore\platform\graphics;C:\work\1453\Source\WebCore\platform\graphics\filters;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz\ng;C:\work\1453\Source\WebCore\platform\graphics\opengl;C:\work\1453\Source\WebCore\platform\graphics\transforms;C:\work\1453\Source\WebCore\platform\network;C:\work\1453\Source\WebCore\platform\sql;C:\work\1453\Source\WebCore\platform\text;C:\work\1453\Source\WebCore\plugins;C:\work\1453\Source\WebCore\rendering;C:\work\1453\Source\WebCore\rendering\style;C:\work\1453\Source\WebCore\storage;C:\work\1453\Source\WebCore\svg;C:\work\1453\Source\WebCore\svg\graphics;C:\work\1453\Source\WebCore\svg\properties;C:\work\1453\Source\WebCore\workers;C:\work\1453\Source\JavaScriptCore;C:\work\1453\Source\JavaScriptCore\ForwardingHeaders;C:\work\1453\Source\JavaScriptCore\API;C:\work\1453\Source\JavaScriptCore\assembler;C:\work\1453\Source\JavaScriptCore\bytecode;C:\work\1453\Source\JavaScriptCore\bytecompiler;C:\work\1453\Source\JavaScriptCore\disassembler;C:\work\1453\Source\JavaScriptCore\dfg;C:\work\1453\Source\JavaScriptCore\heap;C:\work\1453\Source\JavaScriptCore\debugger;C:\work\1453\Source\JavaScriptCore\interpreter;C:\work\1453\Source\JavaScriptCore\jit;C:\work\1453\Source\JavaScriptCore\llint;C:\work\1453\Source\JavaScriptCore\parser;C:\work\1453\Source\JavaScriptCore\profiler;C:\work\1453\Source\JavaScriptCore\runtime;C:\work\1453\Source\WTF;C:\work\1453\DerivedSources\WebCore;C:\work\1453;C:\work\1453\Source\WebCore\page\win;C:\work\1453\Source\WebCore\platform\graphics\wince;C:\work\1453\Source\WebCore\platform\graphics\win;C:\work\1453\Source\WebCore\platform\network\win;C:\work\1453\Source\WebCore\platform\win;C:\work\1453\Source\WebKit\wince;C:\work\1453\Source\WebKit\wince\WebCoreSupport;"
+				AssemblerListingLocation="Debug/"
+				DisableSpecificWarnings="4018;4065;4068;4099;4100;4127;4138;4180;4189;4201;4244;4251;4275;4288;4291;4305;4344;4355;4389;4396;4503;4505;4510;4512;4610;4706;4800;4951;4952;4996"
+				ExceptionHandling="0"
+				WarnAsError="true"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WebKit;C:\work\1453\Source\WebCore;C:\work\1453\Source\WebCore\Modules\networkinfo;C:\work\1453\Source\WebCore\Modules\webdatabase;C:\work\1453\Source\WebCore\accessibility;C:\work\1453\Source\WebCore\bindings\generic;C:\work\1453\Source\WebCore\bindings\js;C:\work\1453\Source\WebCore\bindings;C:\work\1453\Source\WebCore\bridge;C:\work\1453\Source\WebCore\bridge\c;C:\work\1453\Source\WebCore\bridge\jsc;C:\work\1453\Source\WebCore\css;C:\work\1453\Source\WebCore\dom;C:\work\1453\Source\WebCore\dom\default;C:\work\1453\Source\WebCore\editing;C:\work\1453\Source\WebCore\history;C:\work\1453\Source\WebCore\html;C:\work\1453\Source\WebCore\html\shadow;C:\work\1453\Source\WebCore\inspector;C:\work\1453\Source\WebCore\loader;C:\work\1453\Source\WebCore\loader\appcache;C:\work\1453\Source\WebCore\loader\icon;C:\work\1453\Source\WebCore\loader\cache;C:\work\1453\Source\WebCore\page;C:\work\1453\Source\WebCore\page\animation;C:\work\1453\Source\WebCore\platform;C:\work\1453\Source\WebCore\platform\animation;C:\work\1453\Source\WebCore\platform\graphics;C:\work\1453\Source\WebCore\platform\graphics\filters;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz\ng;C:\work\1453\Source\WebCore\platform\graphics\opengl;C:\work\1453\Source\WebCore\platform\graphics\transforms;C:\work\1453\Source\WebCore\platform\network;C:\work\1453\Source\WebCore\platform\sql;C:\work\1453\Source\WebCore\platform\text;C:\work\1453\Source\WebCore\plugins;C:\work\1453\Source\WebCore\rendering;C:\work\1453\Source\WebCore\rendering\style;C:\work\1453\Source\WebCore\storage;C:\work\1453\Source\WebCore\svg;C:\work\1453\Source\WebCore\svg\graphics;C:\work\1453\Source\WebCore\svg\properties;C:\work\1453\Source\WebCore\workers;C:\work\1453\Source\JavaScriptCore;C:\work\1453\Source\JavaScriptCore\ForwardingHeaders;C:\work\1453\Source\JavaScriptCore\API;C:\work\1453\Source\JavaScriptCore\assembler;C:\work\1453\Source\JavaScriptCore\bytecode;C:\work\1453\Source\JavaScriptCore\bytecompiler;C:\work\1453\Source\JavaScriptCore\disassembler;C:\work\1453\Source\JavaScriptCore\dfg;C:\work\1453\Source\JavaScriptCore\heap;C:\work\1453\Source\JavaScriptCore\debugger;C:\work\1453\Source\JavaScriptCore\interpreter;C:\work\1453\Source\JavaScriptCore\jit;C:\work\1453\Source\JavaScriptCore\llint;C:\work\1453\Source\JavaScriptCore\parser;C:\work\1453\Source\JavaScriptCore\profiler;C:\work\1453\Source\JavaScriptCore\runtime;C:\work\1453\Source\WTF;C:\work\1453\DerivedSources\WebCore;C:\work\1453;C:\work\1453\Source\WebCore\page\win;C:\work\1453\Source\WebCore\platform\graphics\wince;C:\work\1453\Source\WebCore\platform\graphics\win;C:\work\1453\Source\WebCore\platform\network\win;C:\work\1453\Source\WebCore\platform\win;C:\work\1453\Source\WebKit\wince;C:\work\1453\Source\WebKit\wince\WebCoreSupport;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WebKit;C:\work\1453\Source\WebCore;C:\work\1453\Source\WebCore\Modules\networkinfo;C:\work\1453\Source\WebCore\Modules\webdatabase;C:\work\1453\Source\WebCore\accessibility;C:\work\1453\Source\WebCore\bindings\generic;C:\work\1453\Source\WebCore\bindings\js;C:\work\1453\Source\WebCore\bindings;C:\work\1453\Source\WebCore\bridge;C:\work\1453\Source\WebCore\bridge\c;C:\work\1453\Source\WebCore\bridge\jsc;C:\work\1453\Source\WebCore\css;C:\work\1453\Source\WebCore\dom;C:\work\1453\Source\WebCore\dom\default;C:\work\1453\Source\WebCore\editing;C:\work\1453\Source\WebCore\history;C:\work\1453\Source\WebCore\html;C:\work\1453\Source\WebCore\html\shadow;C:\work\1453\Source\WebCore\inspector;C:\work\1453\Source\WebCore\loader;C:\work\1453\Source\WebCore\loader\appcache;C:\work\1453\Source\WebCore\loader\icon;C:\work\1453\Source\WebCore\loader\cache;C:\work\1453\Source\WebCore\page;C:\work\1453\Source\WebCore\page\animation;C:\work\1453\Source\WebCore\platform;C:\work\1453\Source\WebCore\platform\animation;C:\work\1453\Source\WebCore\platform\graphics;C:\work\1453\Source\WebCore\platform\graphics\filters;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz\ng;C:\work\1453\Source\WebCore\platform\graphics\opengl;C:\work\1453\Source\WebCore\platform\graphics\transforms;C:\work\1453\Source\WebCore\platform\network;C:\work\1453\Source\WebCore\platform\sql;C:\work\1453\Source\WebCore\platform\text;C:\work\1453\Source\WebCore\plugins;C:\work\1453\Source\WebCore\rendering;C:\work\1453\Source\WebCore\rendering\style;C:\work\1453\Source\WebCore\storage;C:\work\1453\Source\WebCore\svg;C:\work\1453\Source\WebCore\svg\graphics;C:\work\1453\Source\WebCore\svg\properties;C:\work\1453\Source\WebCore\workers;C:\work\1453\Source\JavaScriptCore;C:\work\1453\Source\JavaScriptCore\ForwardingHeaders;C:\work\1453\Source\JavaScriptCore\API;C:\work\1453\Source\JavaScriptCore\assembler;C:\work\1453\Source\JavaScriptCore\bytecode;C:\work\1453\Source\JavaScriptCore\bytecompiler;C:\work\1453\Source\JavaScriptCore\disassembler;C:\work\1453\Source\JavaScriptCore\dfg;C:\work\1453\Source\JavaScriptCore\heap;C:\work\1453\Source\JavaScriptCore\debugger;C:\work\1453\Source\JavaScriptCore\interpreter;C:\work\1453\Source\JavaScriptCore\jit;C:\work\1453\Source\JavaScriptCore\llint;C:\work\1453\Source\JavaScriptCore\parser;C:\work\1453\Source\JavaScriptCore\profiler;C:\work\1453\Source\JavaScriptCore\runtime;C:\work\1453\Source\WTF;C:\work\1453\DerivedSources\WebCore;C:\work\1453;C:\work\1453\Source\WebCore\page\win;C:\work\1453\Source\WebCore\platform\graphics\wince;C:\work\1453\Source\WebCore\platform\graphics\win;C:\work\1453\Source\WebCore\platform\network\win;C:\work\1453\Source\WebCore\platform\win;C:\work\1453\Source\WebKit\wince;C:\work\1453\Source\WebKit\wince\WebCoreSupport;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+CommandLine="cd C:\work\1453&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake\bin\cpack.exe&quot; -C $(ConfigurationName) --config ./CPackConfig.cmake&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+		</Configuration>
+		<Configuration
+			Name="Release|STANDARDSDK_500 (ARMV4I)"
+			IntermediateDirectory="PACKAGE.dir\Release"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WebKit;C:\work\1453\Source\WebCore;C:\work\1453\Source\WebCore\Modules\networkinfo;C:\work\1453\Source\WebCore\Modules\webdatabase;C:\work\1453\Source\WebCore\accessibility;C:\work\1453\Source\WebCore\bindings\generic;C:\work\1453\Source\WebCore\bindings\js;C:\work\1453\Source\WebCore\bindings;C:\work\1453\Source\WebCore\bridge;C:\work\1453\Source\WebCore\bridge\c;C:\work\1453\Source\WebCore\bridge\jsc;C:\work\1453\Source\WebCore\css;C:\work\1453\Source\WebCore\dom;C:\work\1453\Source\WebCore\dom\default;C:\work\1453\Source\WebCore\editing;C:\work\1453\Source\WebCore\history;C:\work\1453\Source\WebCore\html;C:\work\1453\Source\WebCore\html\shadow;C:\work\1453\Source\WebCore\inspector;C:\work\1453\Source\WebCore\loader;C:\work\1453\Source\WebCore\loader\appcache;C:\work\1453\Source\WebCore\loader\icon;C:\work\1453\Source\WebCore\loader\cache;C:\work\1453\Source\WebCore\page;C:\work\1453\Source\WebCore\page\animation;C:\work\1453\Source\WebCore\platform;C:\work\1453\Source\WebCore\platform\animation;C:\work\1453\Source\WebCore\platform\graphics;C:\work\1453\Source\WebCore\platform\graphics\filters;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz\ng;C:\work\1453\Source\WebCore\platform\graphics\opengl;C:\work\1453\Source\WebCore\platform\graphics\transforms;C:\work\1453\Source\WebCore\platform\network;C:\work\1453\Source\WebCore\platform\sql;C:\work\1453\Source\WebCore\platform\text;C:\work\1453\Source\WebCore\plugins;C:\work\1453\Source\WebCore\rendering;C:\work\1453\Source\WebCore\rendering\style;C:\work\1453\Source\WebCore\storage;C:\work\1453\Source\WebCore\svg;C:\work\1453\Source\WebCore\svg\graphics;C:\work\1453\Source\WebCore\svg\properties;C:\work\1453\Source\WebCore\workers;C:\work\1453\Source\JavaScriptCore;C:\work\1453\Source\JavaScriptCore\ForwardingHeaders;C:\work\1453\Source\JavaScriptCore\API;C:\work\1453\Source\JavaScriptCore\assembler;C:\work\1453\Source\JavaScriptCore\bytecode;C:\work\1453\Source\JavaScriptCore\bytecompiler;C:\work\1453\Source\JavaScriptCore\disassembler;C:\work\1453\Source\JavaScriptCore\dfg;C:\work\1453\Source\JavaScriptCore\heap;C:\work\1453\Source\JavaScriptCore\debugger;C:\work\1453\Source\JavaScriptCore\interpreter;C:\work\1453\Source\JavaScriptCore\jit;C:\work\1453\Source\JavaScriptCore\llint;C:\work\1453\Source\JavaScriptCore\parser;C:\work\1453\Source\JavaScriptCore\profiler;C:\work\1453\Source\JavaScriptCore\runtime;C:\work\1453\Source\WTF;C:\work\1453\DerivedSources\WebCore;C:\work\1453;C:\work\1453\Source\WebCore\page\win;C:\work\1453\Source\WebCore\platform\graphics\wince;C:\work\1453\Source\WebCore\platform\graphics\win;C:\work\1453\Source\WebCore\platform\network\win;C:\work\1453\Source\WebCore\platform\win;C:\work\1453\Source\WebKit\wince;C:\work\1453\Source\WebKit\wince\WebCoreSupport;"
+				AssemblerListingLocation="Release/"
+				DisableSpecificWarnings="4018;4065;4068;4099;4100;4127;4138;4180;4189;4201;4244;4251;4275;4288;4291;4305;4344;4355;4389;4396;4503;4505;4510;4512;4610;4706;4800;4951;4952;4996"
+				ExceptionHandling="0"
+				WarnAsError="true"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WebKit;C:\work\1453\Source\WebCore;C:\work\1453\Source\WebCore\Modules\networkinfo;C:\work\1453\Source\WebCore\Modules\webdatabase;C:\work\1453\Source\WebCore\accessibility;C:\work\1453\Source\WebCore\bindings\generic;C:\work\1453\Source\WebCore\bindings\js;C:\work\1453\Source\WebCore\bindings;C:\work\1453\Source\WebCore\bridge;C:\work\1453\Source\WebCore\bridge\c;C:\work\1453\Source\WebCore\bridge\jsc;C:\work\1453\Source\WebCore\css;C:\work\1453\Source\WebCore\dom;C:\work\1453\Source\WebCore\dom\default;C:\work\1453\Source\WebCore\editing;C:\work\1453\Source\WebCore\history;C:\work\1453\Source\WebCore\html;C:\work\1453\Source\WebCore\html\shadow;C:\work\1453\Source\WebCore\inspector;C:\work\1453\Source\WebCore\loader;C:\work\1453\Source\WebCore\loader\appcache;C:\work\1453\Source\WebCore\loader\icon;C:\work\1453\Source\WebCore\loader\cache;C:\work\1453\Source\WebCore\page;C:\work\1453\Source\WebCore\page\animation;C:\work\1453\Source\WebCore\platform;C:\work\1453\Source\WebCore\platform\animation;C:\work\1453\Source\WebCore\platform\graphics;C:\work\1453\Source\WebCore\platform\graphics\filters;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz\ng;C:\work\1453\Source\WebCore\platform\graphics\opengl;C:\work\1453\Source\WebCore\platform\graphics\transforms;C:\work\1453\Source\WebCore\platform\network;C:\work\1453\Source\WebCore\platform\sql;C:\work\1453\Source\WebCore\platform\text;C:\work\1453\Source\WebCore\plugins;C:\work\1453\Source\WebCore\rendering;C:\work\1453\Source\WebCore\rendering\style;C:\work\1453\Source\WebCore\storage;C:\work\1453\Source\WebCore\svg;C:\work\1453\Source\WebCore\svg\graphics;C:\work\1453\Source\WebCore\svg\properties;C:\work\1453\Source\WebCore\workers;C:\work\1453\Source\JavaScriptCore;C:\work\1453\Source\JavaScriptCore\ForwardingHeaders;C:\work\1453\Source\JavaScriptCore\API;C:\work\1453\Source\JavaScriptCore\assembler;C:\work\1453\Source\JavaScriptCore\bytecode;C:\work\1453\Source\JavaScriptCore\bytecompiler;C:\work\1453\Source\JavaScriptCore\disassembler;C:\work\1453\Source\JavaScriptCore\dfg;C:\work\1453\Source\JavaScriptCore\heap;C:\work\1453\Source\JavaScriptCore\debugger;C:\work\1453\Source\JavaScriptCore\interpreter;C:\work\1453\Source\JavaScriptCore\jit;C:\work\1453\Source\JavaScriptCore\llint;C:\work\1453\Source\JavaScriptCore\parser;C:\work\1453\Source\JavaScriptCore\profiler;C:\work\1453\Source\JavaScriptCore\runtime;C:\work\1453\Source\WTF;C:\work\1453\DerivedSources\WebCore;C:\work\1453;C:\work\1453\Source\WebCore\page\win;C:\work\1453\Source\WebCore\platform\graphics\wince;C:\work\1453\Source\WebCore\platform\graphics\win;C:\work\1453\Source\WebCore\platform\network\win;C:\work\1453\Source\WebCore\platform\win;C:\work\1453\Source\WebKit\wince;C:\work\1453\Source\WebKit\wince\WebCoreSupport;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WebKit;C:\work\1453\Source\WebCore;C:\work\1453\Source\WebCore\Modules\networkinfo;C:\work\1453\Source\WebCore\Modules\webdatabase;C:\work\1453\Source\WebCore\accessibility;C:\work\1453\Source\WebCore\bindings\generic;C:\work\1453\Source\WebCore\bindings\js;C:\work\1453\Source\WebCore\bindings;C:\work\1453\Source\WebCore\bridge;C:\work\1453\Source\WebCore\bridge\c;C:\work\1453\Source\WebCore\bridge\jsc;C:\work\1453\Source\WebCore\css;C:\work\1453\Source\WebCore\dom;C:\work\1453\Source\WebCore\dom\default;C:\work\1453\Source\WebCore\editing;C:\work\1453\Source\WebCore\history;C:\work\1453\Source\WebCore\html;C:\work\1453\Source\WebCore\html\shadow;C:\work\1453\Source\WebCore\inspector;C:\work\1453\Source\WebCore\loader;C:\work\1453\Source\WebCore\loader\appcache;C:\work\1453\Source\WebCore\loader\icon;C:\work\1453\Source\WebCore\loader\cache;C:\work\1453\Source\WebCore\page;C:\work\1453\Source\WebCore\page\animation;C:\work\1453\Source\WebCore\platform;C:\work\1453\Source\WebCore\platform\animation;C:\work\1453\Source\WebCore\platform\graphics;C:\work\1453\Source\WebCore\platform\graphics\filters;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz\ng;C:\work\1453\Source\WebCore\platform\graphics\opengl;C:\work\1453\Source\WebCore\platform\graphics\transforms;C:\work\1453\Source\WebCore\platform\network;C:\work\1453\Source\WebCore\platform\sql;C:\work\1453\Source\WebCore\platform\text;C:\work\1453\Source\WebCore\plugins;C:\work\1453\Source\WebCore\rendering;C:\work\1453\Source\WebCore\rendering\style;C:\work\1453\Source\WebCore\storage;C:\work\1453\Source\WebCore\svg;C:\work\1453\Source\WebCore\svg\graphics;C:\work\1453\Source\WebCore\svg\properties;C:\work\1453\Source\WebCore\workers;C:\work\1453\Source\JavaScriptCore;C:\work\1453\Source\JavaScriptCore\ForwardingHeaders;C:\work\1453\Source\JavaScriptCore\API;C:\work\1453\Source\JavaScriptCore\assembler;C:\work\1453\Source\JavaScriptCore\bytecode;C:\work\1453\Source\JavaScriptCore\bytecompiler;C:\work\1453\Source\JavaScriptCore\disassembler;C:\work\1453\Source\JavaScriptCore\dfg;C:\work\1453\Source\JavaScriptCore\heap;C:\work\1453\Source\JavaScriptCore\debugger;C:\work\1453\Source\JavaScriptCore\interpreter;C:\work\1453\Source\JavaScriptCore\jit;C:\work\1453\Source\JavaScriptCore\llint;C:\work\1453\Source\JavaScriptCore\parser;C:\work\1453\Source\JavaScriptCore\profiler;C:\work\1453\Source\JavaScriptCore\runtime;C:\work\1453\Source\WTF;C:\work\1453\DerivedSources\WebCore;C:\work\1453;C:\work\1453\Source\WebCore\page\win;C:\work\1453\Source\WebCore\platform\graphics\wince;C:\work\1453\Source\WebCore\platform\graphics\win;C:\work\1453\Source\WebCore\platform\network\win;C:\work\1453\Source\WebCore\platform\win;C:\work\1453\Source\WebKit\wince;C:\work\1453\Source\WebKit\wince\WebCoreSupport;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+CommandLine="cd C:\work\1453&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake\bin\cpack.exe&quot; -C $(ConfigurationName) --config ./CPackConfig.cmake&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|STANDARDSDK_500 (ARMV4I)"
+			IntermediateDirectory="PACKAGE.dir\MinSizeRel"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WebKit;C:\work\1453\Source\WebCore;C:\work\1453\Source\WebCore\Modules\networkinfo;C:\work\1453\Source\WebCore\Modules\webdatabase;C:\work\1453\Source\WebCore\accessibility;C:\work\1453\Source\WebCore\bindings\generic;C:\work\1453\Source\WebCore\bindings\js;C:\work\1453\Source\WebCore\bindings;C:\work\1453\Source\WebCore\bridge;C:\work\1453\Source\WebCore\bridge\c;C:\work\1453\Source\WebCore\bridge\jsc;C:\work\1453\Source\WebCore\css;C:\work\1453\Source\WebCore\dom;C:\work\1453\Source\WebCore\dom\default;C:\work\1453\Source\WebCore\editing;C:\work\1453\Source\WebCore\history;C:\work\1453\Source\WebCore\html;C:\work\1453\Source\WebCore\html\shadow;C:\work\1453\Source\WebCore\inspector;C:\work\1453\Source\WebCore\loader;C:\work\1453\Source\WebCore\loader\appcache;C:\work\1453\Source\WebCore\loader\icon;C:\work\1453\Source\WebCore\loader\cache;C:\work\1453\Source\WebCore\page;C:\work\1453\Source\WebCore\page\animation;C:\work\1453\Source\WebCore\platform;C:\work\1453\Source\WebCore\platform\animation;C:\work\1453\Source\WebCore\platform\graphics;C:\work\1453\Source\WebCore\platform\graphics\filters;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz\ng;C:\work\1453\Source\WebCore\platform\graphics\opengl;C:\work\1453\Source\WebCore\platform\graphics\transforms;C:\work\1453\Source\WebCore\platform\network;C:\work\1453\Source\WebCore\platform\sql;C:\work\1453\Source\WebCore\platform\text;C:\work\1453\Source\WebCore\plugins;C:\work\1453\Source\WebCore\rendering;C:\work\1453\Source\WebCore\rendering\style;C:\work\1453\Source\WebCore\storage;C:\work\1453\Source\WebCore\svg;C:\work\1453\Source\WebCore\svg\graphics;C:\work\1453\Source\WebCore\svg\properties;C:\work\1453\Source\WebCore\workers;C:\work\1453\Source\JavaScriptCore;C:\work\1453\Source\JavaScriptCore\ForwardingHeaders;C:\work\1453\Source\JavaScriptCore\API;C:\work\1453\Source\JavaScriptCore\assembler;C:\work\1453\Source\JavaScriptCore\bytecode;C:\work\1453\Source\JavaScriptCore\bytecompiler;C:\work\1453\Source\JavaScriptCore\disassembler;C:\work\1453\Source\JavaScriptCore\dfg;C:\work\1453\Source\JavaScriptCore\heap;C:\work\1453\Source\JavaScriptCore\debugger;C:\work\1453\Source\JavaScriptCore\interpreter;C:\work\1453\Source\JavaScriptCore\jit;C:\work\1453\Source\JavaScriptCore\llint;C:\work\1453\Source\JavaScriptCore\parser;C:\work\1453\Source\JavaScriptCore\profiler;C:\work\1453\Source\JavaScriptCore\runtime;C:\work\1453\Source\WTF;C:\work\1453\DerivedSources\WebCore;C:\work\1453;C:\work\1453\Source\WebCore\page\win;C:\work\1453\Source\WebCore\platform\graphics\wince;C:\work\1453\Source\WebCore\platform\graphics\win;C:\work\1453\Source\WebCore\platform\network\win;C:\work\1453\Source\WebCore\platform\win;C:\work\1453\Source\WebKit\wince;C:\work\1453\Source\WebKit\wince\WebCoreSupport;"
+				AssemblerListingLocation="MinSizeRel/"
+				DisableSpecificWarnings="4018;4065;4068;4099;4100;4127;4138;4180;4189;4201;4244;4251;4275;4288;4291;4305;4344;4355;4389;4396;4503;4505;4510;4512;4610;4706;4800;4951;4952;4996"
+				ExceptionHandling="0"
+				WarnAsError="true"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WebKit;C:\work\1453\Source\WebCore;C:\work\1453\Source\WebCore\Modules\networkinfo;C:\work\1453\Source\WebCore\Modules\webdatabase;C:\work\1453\Source\WebCore\accessibility;C:\work\1453\Source\WebCore\bindings\generic;C:\work\1453\Source\WebCore\bindings\js;C:\work\1453\Source\WebCore\bindings;C:\work\1453\Source\WebCore\bridge;C:\work\1453\Source\WebCore\bridge\c;C:\work\1453\Source\WebCore\bridge\jsc;C:\work\1453\Source\WebCore\css;C:\work\1453\Source\WebCore\dom;C:\work\1453\Source\WebCore\dom\default;C:\work\1453\Source\WebCore\editing;C:\work\1453\Source\WebCore\history;C:\work\1453\Source\WebCore\html;C:\work\1453\Source\WebCore\html\shadow;C:\work\1453\Source\WebCore\inspector;C:\work\1453\Source\WebCore\loader;C:\work\1453\Source\WebCore\loader\appcache;C:\work\1453\Source\WebCore\loader\icon;C:\work\1453\Source\WebCore\loader\cache;C:\work\1453\Source\WebCore\page;C:\work\1453\Source\WebCore\page\animation;C:\work\1453\Source\WebCore\platform;C:\work\1453\Source\WebCore\platform\animation;C:\work\1453\Source\WebCore\platform\graphics;C:\work\1453\Source\WebCore\platform\graphics\filters;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz\ng;C:\work\1453\Source\WebCore\platform\graphics\opengl;C:\work\1453\Source\WebCore\platform\graphics\transforms;C:\work\1453\Source\WebCore\platform\network;C:\work\1453\Source\WebCore\platform\sql;C:\work\1453\Source\WebCore\platform\text;C:\work\1453\Source\WebCore\plugins;C:\work\1453\Source\WebCore\rendering;C:\work\1453\Source\WebCore\rendering\style;C:\work\1453\Source\WebCore\storage;C:\work\1453\Source\WebCore\svg;C:\work\1453\Source\WebCore\svg\graphics;C:\work\1453\Source\WebCore\svg\properties;C:\work\1453\Source\WebCore\workers;C:\work\1453\Source\JavaScriptCore;C:\work\1453\Source\JavaScriptCore\ForwardingHeaders;C:\work\1453\Source\JavaScriptCore\API;C:\work\1453\Source\JavaScriptCore\assembler;C:\work\1453\Source\JavaScriptCore\bytecode;C:\work\1453\Source\JavaScriptCore\bytecompiler;C:\work\1453\Source\JavaScriptCore\disassembler;C:\work\1453\Source\JavaScriptCore\dfg;C:\work\1453\Source\JavaScriptCore\heap;C:\work\1453\Source\JavaScriptCore\debugger;C:\work\1453\Source\JavaScriptCore\interpreter;C:\work\1453\Source\JavaScriptCore\jit;C:\work\1453\Source\JavaScriptCore\llint;C:\work\1453\Source\JavaScriptCore\parser;C:\work\1453\Source\JavaScriptCore\profiler;C:\work\1453\Source\JavaScriptCore\runtime;C:\work\1453\Source\WTF;C:\work\1453\DerivedSources\WebCore;C:\work\1453;C:\work\1453\Source\WebCore\page\win;C:\work\1453\Source\WebCore\platform\graphics\wince;C:\work\1453\Source\WebCore\platform\graphics\win;C:\work\1453\Source\WebCore\platform\network\win;C:\work\1453\Source\WebCore\platform\win;C:\work\1453\Source\WebKit\wince;C:\work\1453\Source\WebKit\wince\WebCoreSupport;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WebKit;C:\work\1453\Source\WebCore;C:\work\1453\Source\WebCore\Modules\networkinfo;C:\work\1453\Source\WebCore\Modules\webdatabase;C:\work\1453\Source\WebCore\accessibility;C:\work\1453\Source\WebCore\bindings\generic;C:\work\1453\Source\WebCore\bindings\js;C:\work\1453\Source\WebCore\bindings;C:\work\1453\Source\WebCore\bridge;C:\work\1453\Source\WebCore\bridge\c;C:\work\1453\Source\WebCore\bridge\jsc;C:\work\1453\Source\WebCore\css;C:\work\1453\Source\WebCore\dom;C:\work\1453\Source\WebCore\dom\default;C:\work\1453\Source\WebCore\editing;C:\work\1453\Source\WebCore\history;C:\work\1453\Source\WebCore\html;C:\work\1453\Source\WebCore\html\shadow;C:\work\1453\Source\WebCore\inspector;C:\work\1453\Source\WebCore\loader;C:\work\1453\Source\WebCore\loader\appcache;C:\work\1453\Source\WebCore\loader\icon;C:\work\1453\Source\WebCore\loader\cache;C:\work\1453\Source\WebCore\page;C:\work\1453\Source\WebCore\page\animation;C:\work\1453\Source\WebCore\platform;C:\work\1453\Source\WebCore\platform\animation;C:\work\1453\Source\WebCore\platform\graphics;C:\work\1453\Source\WebCore\platform\graphics\filters;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz\ng;C:\work\1453\Source\WebCore\platform\graphics\opengl;C:\work\1453\Source\WebCore\platform\graphics\transforms;C:\work\1453\Source\WebCore\platform\network;C:\work\1453\Source\WebCore\platform\sql;C:\work\1453\Source\WebCore\platform\text;C:\work\1453\Source\WebCore\plugins;C:\work\1453\Source\WebCore\rendering;C:\work\1453\Source\WebCore\rendering\style;C:\work\1453\Source\WebCore\storage;C:\work\1453\Source\WebCore\svg;C:\work\1453\Source\WebCore\svg\graphics;C:\work\1453\Source\WebCore\svg\properties;C:\work\1453\Source\WebCore\workers;C:\work\1453\Source\JavaScriptCore;C:\work\1453\Source\JavaScriptCore\ForwardingHeaders;C:\work\1453\Source\JavaScriptCore\API;C:\work\1453\Source\JavaScriptCore\assembler;C:\work\1453\Source\JavaScriptCore\bytecode;C:\work\1453\Source\JavaScriptCore\bytecompiler;C:\work\1453\Source\JavaScriptCore\disassembler;C:\work\1453\Source\JavaScriptCore\dfg;C:\work\1453\Source\JavaScriptCore\heap;C:\work\1453\Source\JavaScriptCore\debugger;C:\work\1453\Source\JavaScriptCore\interpreter;C:\work\1453\Source\JavaScriptCore\jit;C:\work\1453\Source\JavaScriptCore\llint;C:\work\1453\Source\JavaScriptCore\parser;C:\work\1453\Source\JavaScriptCore\profiler;C:\work\1453\Source\JavaScriptCore\runtime;C:\work\1453\Source\WTF;C:\work\1453\DerivedSources\WebCore;C:\work\1453;C:\work\1453\Source\WebCore\page\win;C:\work\1453\Source\WebCore\platform\graphics\wince;C:\work\1453\Source\WebCore\platform\graphics\win;C:\work\1453\Source\WebCore\platform\network\win;C:\work\1453\Source\WebCore\platform\win;C:\work\1453\Source\WebKit\wince;C:\work\1453\Source\WebKit\wince\WebCoreSupport;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+CommandLine="cd C:\work\1453&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake\bin\cpack.exe&quot; -C $(ConfigurationName) --config ./CPackConfig.cmake&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|STANDARDSDK_500 (ARMV4I)"
+			IntermediateDirectory="PACKAGE.dir\RelWithDebInfo"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WebKit;C:\work\1453\Source\WebCore;C:\work\1453\Source\WebCore\Modules\networkinfo;C:\work\1453\Source\WebCore\Modules\webdatabase;C:\work\1453\Source\WebCore\accessibility;C:\work\1453\Source\WebCore\bindings\generic;C:\work\1453\Source\WebCore\bindings\js;C:\work\1453\Source\WebCore\bindings;C:\work\1453\Source\WebCore\bridge;C:\work\1453\Source\WebCore\bridge\c;C:\work\1453\Source\WebCore\bridge\jsc;C:\work\1453\Source\WebCore\css;C:\work\1453\Source\WebCore\dom;C:\work\1453\Source\WebCore\dom\default;C:\work\1453\Source\WebCore\editing;C:\work\1453\Source\WebCore\history;C:\work\1453\Source\WebCore\html;C:\work\1453\Source\WebCore\html\shadow;C:\work\1453\Source\WebCore\inspector;C:\work\1453\Source\WebCore\loader;C:\work\1453\Source\WebCore\loader\appcache;C:\work\1453\Source\WebCore\loader\icon;C:\work\1453\Source\WebCore\loader\cache;C:\work\1453\Source\WebCore\page;C:\work\1453\Source\WebCore\page\animation;C:\work\1453\Source\WebCore\platform;C:\work\1453\Source\WebCore\platform\animation;C:\work\1453\Source\WebCore\platform\graphics;C:\work\1453\Source\WebCore\platform\graphics\filters;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz\ng;C:\work\1453\Source\WebCore\platform\graphics\opengl;C:\work\1453\Source\WebCore\platform\graphics\transforms;C:\work\1453\Source\WebCore\platform\network;C:\work\1453\Source\WebCore\platform\sql;C:\work\1453\Source\WebCore\platform\text;C:\work\1453\Source\WebCore\plugins;C:\work\1453\Source\WebCore\rendering;C:\work\1453\Source\WebCore\rendering\style;C:\work\1453\Source\WebCore\storage;C:\work\1453\Source\WebCore\svg;C:\work\1453\Source\WebCore\svg\graphics;C:\work\1453\Source\WebCore\svg\properties;C:\work\1453\Source\WebCore\workers;C:\work\1453\Source\JavaScriptCore;C:\work\1453\Source\JavaScriptCore\ForwardingHeaders;C:\work\1453\Source\JavaScriptCore\API;C:\work\1453\Source\JavaScriptCore\assembler;C:\work\1453\Source\JavaScriptCore\bytecode;C:\work\1453\Source\JavaScriptCore\bytecompiler;C:\work\1453\Source\JavaScriptCore\disassembler;C:\work\1453\Source\JavaScriptCore\dfg;C:\work\1453\Source\JavaScriptCore\heap;C:\work\1453\Source\JavaScriptCore\debugger;C:\work\1453\Source\JavaScriptCore\interpreter;C:\work\1453\Source\JavaScriptCore\jit;C:\work\1453\Source\JavaScriptCore\llint;C:\work\1453\Source\JavaScriptCore\parser;C:\work\1453\Source\JavaScriptCore\profiler;C:\work\1453\Source\JavaScriptCore\runtime;C:\work\1453\Source\WTF;C:\work\1453\DerivedSources\WebCore;C:\work\1453;C:\work\1453\Source\WebCore\page\win;C:\work\1453\Source\WebCore\platform\graphics\wince;C:\work\1453\Source\WebCore\platform\graphics\win;C:\work\1453\Source\WebCore\platform\network\win;C:\work\1453\Source\WebCore\platform\win;C:\work\1453\Source\WebKit\wince;C:\work\1453\Source\WebKit\wince\WebCoreSupport;"
+				AssemblerListingLocation="RelWithDebInfo/"
+				DisableSpecificWarnings="4018;4065;4068;4099;4100;4127;4138;4180;4189;4201;4244;4251;4275;4288;4291;4305;4344;4355;4389;4396;4503;4505;4510;4512;4610;4706;4800;4951;4952;4996"
+				ExceptionHandling="0"
+				WarnAsError="true"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WebKit;C:\work\1453\Source\WebCore;C:\work\1453\Source\WebCore\Modules\networkinfo;C:\work\1453\Source\WebCore\Modules\webdatabase;C:\work\1453\Source\WebCore\accessibility;C:\work\1453\Source\WebCore\bindings\generic;C:\work\1453\Source\WebCore\bindings\js;C:\work\1453\Source\WebCore\bindings;C:\work\1453\Source\WebCore\bridge;C:\work\1453\Source\WebCore\bridge\c;C:\work\1453\Source\WebCore\bridge\jsc;C:\work\1453\Source\WebCore\css;C:\work\1453\Source\WebCore\dom;C:\work\1453\Source\WebCore\dom\default;C:\work\1453\Source\WebCore\editing;C:\work\1453\Source\WebCore\history;C:\work\1453\Source\WebCore\html;C:\work\1453\Source\WebCore\html\shadow;C:\work\1453\Source\WebCore\inspector;C:\work\1453\Source\WebCore\loader;C:\work\1453\Source\WebCore\loader\appcache;C:\work\1453\Source\WebCore\loader\icon;C:\work\1453\Source\WebCore\loader\cache;C:\work\1453\Source\WebCore\page;C:\work\1453\Source\WebCore\page\animation;C:\work\1453\Source\WebCore\platform;C:\work\1453\Source\WebCore\platform\animation;C:\work\1453\Source\WebCore\platform\graphics;C:\work\1453\Source\WebCore\platform\graphics\filters;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz\ng;C:\work\1453\Source\WebCore\platform\graphics\opengl;C:\work\1453\Source\WebCore\platform\graphics\transforms;C:\work\1453\Source\WebCore\platform\network;C:\work\1453\Source\WebCore\platform\sql;C:\work\1453\Source\WebCore\platform\text;C:\work\1453\Source\WebCore\plugins;C:\work\1453\Source\WebCore\rendering;C:\work\1453\Source\WebCore\rendering\style;C:\work\1453\Source\WebCore\storage;C:\work\1453\Source\WebCore\svg;C:\work\1453\Source\WebCore\svg\graphics;C:\work\1453\Source\WebCore\svg\properties;C:\work\1453\Source\WebCore\workers;C:\work\1453\Source\JavaScriptCore;C:\work\1453\Source\JavaScriptCore\ForwardingHeaders;C:\work\1453\Source\JavaScriptCore\API;C:\work\1453\Source\JavaScriptCore\assembler;C:\work\1453\Source\JavaScriptCore\bytecode;C:\work\1453\Source\JavaScriptCore\bytecompiler;C:\work\1453\Source\JavaScriptCore\disassembler;C:\work\1453\Source\JavaScriptCore\dfg;C:\work\1453\Source\JavaScriptCore\heap;C:\work\1453\Source\JavaScriptCore\debugger;C:\work\1453\Source\JavaScriptCore\interpreter;C:\work\1453\Source\JavaScriptCore\jit;C:\work\1453\Source\JavaScriptCore\llint;C:\work\1453\Source\JavaScriptCore\parser;C:\work\1453\Source\JavaScriptCore\profiler;C:\work\1453\Source\JavaScriptCore\runtime;C:\work\1453\Source\WTF;C:\work\1453\DerivedSources\WebCore;C:\work\1453;C:\work\1453\Source\WebCore\page\win;C:\work\1453\Source\WebCore\platform\graphics\wince;C:\work\1453\Source\WebCore\platform\graphics\win;C:\work\1453\Source\WebCore\platform\network\win;C:\work\1453\Source\WebCore\platform\win;C:\work\1453\Source\WebKit\wince;C:\work\1453\Source\WebKit\wince\WebCoreSupport;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="C:\work\1453\Source\JavaScriptCore\os-win32;C:\work\webkit-thirdparty\ce-compat;C:\work\1453\Source\WebKit;C:\work\1453\Source\WebCore;C:\work\1453\Source\WebCore\Modules\networkinfo;C:\work\1453\Source\WebCore\Modules\webdatabase;C:\work\1453\Source\WebCore\accessibility;C:\work\1453\Source\WebCore\bindings\generic;C:\work\1453\Source\WebCore\bindings\js;C:\work\1453\Source\WebCore\bindings;C:\work\1453\Source\WebCore\bridge;C:\work\1453\Source\WebCore\bridge\c;C:\work\1453\Source\WebCore\bridge\jsc;C:\work\1453\Source\WebCore\css;C:\work\1453\Source\WebCore\dom;C:\work\1453\Source\WebCore\dom\default;C:\work\1453\Source\WebCore\editing;C:\work\1453\Source\WebCore\history;C:\work\1453\Source\WebCore\html;C:\work\1453\Source\WebCore\html\shadow;C:\work\1453\Source\WebCore\inspector;C:\work\1453\Source\WebCore\loader;C:\work\1453\Source\WebCore\loader\appcache;C:\work\1453\Source\WebCore\loader\icon;C:\work\1453\Source\WebCore\loader\cache;C:\work\1453\Source\WebCore\page;C:\work\1453\Source\WebCore\page\animation;C:\work\1453\Source\WebCore\platform;C:\work\1453\Source\WebCore\platform\animation;C:\work\1453\Source\WebCore\platform\graphics;C:\work\1453\Source\WebCore\platform\graphics\filters;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz;C:\work\1453\Source\WebCore\platform\graphics\harfbuzz\ng;C:\work\1453\Source\WebCore\platform\graphics\opengl;C:\work\1453\Source\WebCore\platform\graphics\transforms;C:\work\1453\Source\WebCore\platform\network;C:\work\1453\Source\WebCore\platform\sql;C:\work\1453\Source\WebCore\platform\text;C:\work\1453\Source\WebCore\plugins;C:\work\1453\Source\WebCore\rendering;C:\work\1453\Source\WebCore\rendering\style;C:\work\1453\Source\WebCore\storage;C:\work\1453\Source\WebCore\svg;C:\work\1453\Source\WebCore\svg\graphics;C:\work\1453\Source\WebCore\svg\properties;C:\work\1453\Source\WebCore\workers;C:\work\1453\Source\JavaScriptCore;C:\work\1453\Source\JavaScriptCore\ForwardingHeaders;C:\work\1453\Source\JavaScriptCore\API;C:\work\1453\Source\JavaScriptCore\assembler;C:\work\1453\Source\JavaScriptCore\bytecode;C:\work\1453\Source\JavaScriptCore\bytecompiler;C:\work\1453\Source\JavaScriptCore\disassembler;C:\work\1453\Source\JavaScriptCore\dfg;C:\work\1453\Source\JavaScriptCore\heap;C:\work\1453\Source\JavaScriptCore\debugger;C:\work\1453\Source\JavaScriptCore\interpreter;C:\work\1453\Source\JavaScriptCore\jit;C:\work\1453\Source\JavaScriptCore\llint;C:\work\1453\Source\JavaScriptCore\parser;C:\work\1453\Source\JavaScriptCore\profiler;C:\work\1453\Source\JavaScriptCore\runtime;C:\work\1453\Source\WTF;C:\work\1453\DerivedSources\WebCore;C:\work\1453;C:\work\1453\Source\WebCore\page\win;C:\work\1453\Source\WebCore\platform\graphics\wince;C:\work\1453\Source\WebCore\platform\graphics\win;C:\work\1453\Source\WebCore\platform\network\win;C:\work\1453\Source\WebCore\platform\win;C:\work\1453\Source\WebKit\wince;C:\work\1453\Source\WebKit\wince\WebCoreSupport;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+CommandLine="cd C:\work\1453&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;C:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;&quot;C:\Program Files (x86)\CMake\bin\cpack.exe&quot; -C $(ConfigurationName) --config ./CPackConfig.cmake&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="CMake Rules"
+			Filter="">
+			<File
+				RelativePath="C:\work\1453\Source\WebKit\CMakeFiles\PACKAGE_force.rule">
+				<FileConfiguration
+					Name="Debug|STANDARDSDK_500 (ARMV4I)">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=" "
+					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="C:\work\1453\Source\WebKit\CMakeFiles\PACKAGE_force.rule"
+					Outputs="C:\work\1453\Source\WebKit\CMakeFiles\PACKAGE_force"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|STANDARDSDK_500 (ARMV4I)">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=" "
+					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="C:\work\1453\Source\WebKit\CMakeFiles\PACKAGE_force.rule"
+					Outputs="C:\work\1453\Source\WebKit\CMakeFiles\PACKAGE_force"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|STANDARDSDK_500 (ARMV4I)">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=" "
+					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="C:\work\1453\Source\WebKit\CMakeFiles\PACKAGE_force.rule"
+					Outputs="C:\work\1453\Source\WebKit\CMakeFiles\PACKAGE_force"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|STANDARDSDK_500 (ARMV4I)">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=" "
+					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="C:\work\1453\Source\WebKit\CMakeFiles\PACKAGE_force.rule"
+					Outputs="C:\work\1453\Source\WebKit\CMakeFiles\PACKAGE_force"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

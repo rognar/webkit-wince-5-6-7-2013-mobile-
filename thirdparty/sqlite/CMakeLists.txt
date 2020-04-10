@@ -1,0 +1,9 @@
+SET(SQLITE_HEADERS
+    sqlite3.h
+)
+
+SET(SQLITE_SOURCES
+    sqlite3.c
+)
+
+ADD_LIBRARY(sqlite STATIC ${SQLITE_HEADERS} ${SQLITE_SOURCES})

@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>NPAPI Test - no embed</title>
+
+<style>
+body, button, input
+{
+  font-size: x-large;
+}
+</style>
+
+<script>
+
+bridge = new WebkitBridge();
+
+function testNPAPI()
+{
+  var data = document.getElementById('data').value;
+  var response = bridge.framework (data);
+  alert (response); 
+}
+
+</script>
+</head>
+<body>
+  <h3>NPAPI Test Page</h3>
+  Data: <input type="text" id="data" value="Hello, World!"/><br/>
+  <button onclick="testNPAPI();">Test NPAPI</button><br/>
+  <button onclick="history.back();">Back</button>
+  <button onclick="application.quit();">Quit</button>
+</body>
+</html>

@@ -1,0 +1,4 @@
+libraries: ["rhowebkit"]
+
+
+platforms: ['wm']

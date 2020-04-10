@@ -1,0 +1,87 @@
+SET(LIBXML2_HEADERS
+    include/libxml/catalog.h
+    include/libxml/chvalid.h
+    include/libxml/debugXML.h
+    include/libxml/dict.h
+    include/libxml/DOCBparser.h
+    include/libxml/encoding.h
+    include/libxml/entities.h
+    include/libxml/globals.h
+    include/libxml/hash.h
+    include/libxml/list.h
+    include/libxml/parser.h
+    include/libxml/parserInternals.h
+    include/libxml/pattern.h
+    include/libxml/relaxng.h
+    include/libxml/SAX2.h
+    include/libxml/schemasInternals.h
+    include/libxml/threads.h
+    include/libxml/tree.h
+    include/libxml/uri.h
+    include/libxml/valid.h
+    include/libxml/xinclude.h
+    include/libxml/xlink.h
+    include/libxml/xmlautomata.h
+    include/libxml/xmlerror.h
+    include/libxml/xmlexports.h
+    include/libxml/xmlIO.h
+    include/libxml/xmlmemory.h
+    include/libxml/xmlmodule.h
+    include/libxml/xmlreader.h
+    include/libxml/xmlregexp.h
+    include/libxml/xmlsave.h
+    include/libxml/xmlschemas.h
+    include/libxml/xmlschemastypes.h
+    include/libxml/xmlstring.h
+    include/libxml/xmlunicode.h
+    include/libxml/xmlversion.h
+    include/libxml/xpath.h
+    include/libxml/xpathInternals.h
+    include/libxml/xpointer.h
+    wincecompat.h
+)
+
+SET(LIBXML2_SOURCES
+    catalog.c
+    chvalid.c
+    debugXML.c
+    dict.c
+    DOCBparser.c
+    encoding.c
+    entities.c
+    error.c
+    globals.c
+    hash.c
+    list.c
+    parser.c
+    parserInternals.c
+    pattern.c
+    relaxng.c
+    SAX2.c
+    threads.c
+    tree.c
+    trionan.c
+    triostr.c
+    uri.c
+    valid.c
+    wincecompat.c
+    xinclude.c
+    xlink.c
+    xmlcatalog.c
+    xmlIO.c
+    xmllint.c
+    xmlmemory.c
+    xmlmodule.c
+    xmlreader.c
+    xmlregexp.c
+    xmlsave.c
+    xmlschemas.c
+    xmlschemastypes.c
+    xmlstring.c
+    xmlunicode.c
+    xpath.c
+    xpointer.c
+)
+
+INCLUDE_DIRECTORIES(include)
+ADD_LIBRARY(libxml2 STATIC ${LIBXML2_HEADERS} ${LIBXML2_SOURCES})
